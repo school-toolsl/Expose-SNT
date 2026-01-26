@@ -4,38 +4,75 @@
 }
 html{
   font-family: arial, sans-serif;
+  background-color: white;
 }
 #title{
-  background-color: lightgray;
+  background-color: #EEEEEE;
+  height: 60px;
   padding: 15px;
   position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 h1{
   font-size: 25px;
   text-align: center;
 }
 main{
-  margin: (header: import-height);
+  padding-top: 70px;
 }
-img{
-  width: 100%;
+#img_principale{
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
+
 #definitions{
-  padding: 0 10px 0 10px;
+  padding: 20px 10px 10px 30px;
+  font-size: 22px;
+  font-weight: 600;
 }
 #types{
   margin: 10px 0 10px 20px;
+}
+#types img{
+  width: 70%;
+  height: 175px;
+  margin: 5% 15% 0 15%;
+  border-radius: 10px 10px 0 0;
 }
 .row{
   display: flex;
 }
 a{
+  height: 250px;
+  width: 30%;
+  margin: 2%;
+  color: white;
   list-style: none;
   color: black;
   text-decoration: none;
-  background-color: lightgray;
+  background-color: #EEEEEE;
   border-radius: 10px;
-  height: 100px;
-  width: 30%;
-  margin: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.sous_titre{
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.separate{
+  background-color: black;
+  height: 2px;
+  width: 80%;
+  margin-left: 30px;
+}
+li{
+  font-size: 20px;
+  font-weight: 550;
+  text-align: center;
 }
