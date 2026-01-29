@@ -1,12 +1,14 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-html{
+
+html {
   font-family: arial, sans-serif;
   background-color: white;
 }
-#title{
+
+#title {
   background-color: #cccccc;
   padding: 20px;
   position: fixed;
@@ -16,38 +18,75 @@ html{
   border-radius: 0 0 20px 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-h1{
+
+h1 {
   font-size: 25px;
   text-align: center;
 }
-main{
-  padding-top: 70px;
+
+#returnBtn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background-color: darkgrey;
+  display: flex;
+  padding: 10px;
+  border-radius: 30px;
 }
-#img_principale{
+
+main {
+  padding-top: 120px;
+}
+
+#img_principale {
   width: 60%;
   margin-left: 20%;
-  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-#definitions{
+#image_secondaire{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+.definitions {
   padding: 20px 10px 10px 30px;
   font-size: 22px;
   font-weight: 600;
 }
-#types{
+
+.sous_titre {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+#types {
   margin: 10px 0 10px 20px;
 }
-#types img{
+
+#types img {
   width: 70%;
   height: 175px;
   margin: 5% 15% 0 15%;
   border-radius: 10px 10px 0 0;
 }
-.row{
+
+.row {
   display: flex;
 }
-a{
+
+a {
   height: 250px;
   width: 30%;
   margin: 2%;
@@ -59,19 +98,34 @@ a{
   border-radius: 10px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
-.sous_titre{
-  font-size: 20px;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-.separate{
+
+.separate {
   background-color: black;
   height: 2px;
   width: 80%;
   margin-left: 30px;
 }
-li{
+
+#types li {
   font-size: 20px;
   font-weight: 550;
   text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+#txtRisques{
+  margin-left: 40px;
+  margin: 20px 0 5px 50px;
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-left: 90px;
+  margin-bottom: 3px;
+}
+
+#partie2{
+  margin-top: 80px;
 }
