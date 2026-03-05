@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: arial, sans-serif;
+  background-color: white;
+}
+
+#title {
+  background-color: #cccccc;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+#returnBtn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background-color: darkgrey;
+  display: flex;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+main {
+  padding-top: 70px;
+}
+
+#img_principale {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+#image_secondaire {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+.definitions {
+  padding: 20px 10px 10px 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sous_titre {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+#types {
+  margin: 10px 0 10px 20px;
+}
+
+#types a:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#types img {
+  aspect-ratio: 16/9;
+  background-image: cover;
+  width: 70%;
+  margin: 5% 15% 0 15%;
+  border-radius: 10px 10px 0 0;
+}
+
+.row {
+  display: flex;
+}
+
+a {
+  width: 30%;
+  margin: 2%;
+  padding-bottom: 10px;
+  color: white;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.separate {
+  background-color: black;
+  height: 2px;
+  width: 80%;
+  margin-left: 30px;
+}
+
+#types li {
+  font-size: 20px;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+#txtRisques, #txtInfiltration, #txtProtection, #txtProtectionPhishing {
+  margin-left: 40px;
+  margin: 20px 0 5px 50px;
+  font-size: 20px;
+}
+
+#txtInfiltration, #txtProtection, #txtProtectionPhishing {
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 20px;
+  margin-left: 90px;
+  margin-bottom: 3px;
+}
+
+#partie3 li{
+  margin-top: 10px;
+}
+
+#partie2 {
+  margin-top: 60px;
+}
+
+#description{
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.sources{
+  background-color: darkgray;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 2px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.sources a{
+  margin: 0;
+}
+
+#Fin{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+#endPoint{
+  height: 20px;
+}
+
+footer{
+  background-color: darkgray;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#footerSRC{
+  margin-left: 20px;
+}
+
+#footerSRC li {
+  list-style: none;
+  margin: 2px 0 0 15px;
+}
+
+#footerSRC a{
+  margin: 0;
+}
